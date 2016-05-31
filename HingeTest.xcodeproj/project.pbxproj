@@ -7,12 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BE461E1B1CF7769A001A8B00 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE461E1A1CF7769A001A8B00 /* AppDelegate.swift */; };
-		BE461E1D1CF7769A001A8B00 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE461E1C1CF7769A001A8B00 /* ViewController.swift */; };
 		BE461E201CF7769A001A8B00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE461E1E1CF7769A001A8B00 /* Main.storyboard */; };
 		BE461E221CF7769A001A8B00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE461E211CF7769A001A8B00 /* Assets.xcassets */; };
 		BE461E251CF7769A001A8B00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE461E231CF7769A001A8B00 /* LaunchScreen.storyboard */; };
-		BE461E301CF7769A001A8B00 /* HingeTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE461E2F1CF7769A001A8B00 /* HingeTestTests.swift */; };
+		BE461E301CF7769A001A8B00 /* DetailViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE461E2F1CF7769A001A8B00 /* DetailViewControllerTests.swift */; };
+		BE616B851CFDDEC000B4A055 /* ImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE616B841CFDDEC000B4A055 /* ImageModel.swift */; };
+		BE616B8D1CFDE05900B4A055 /* HNGOfflineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE616B8C1CFDE05900B4A055 /* HNGOfflineView.swift */; };
+		BE616B901CFDE3A400B4A055 /* HNGOfflineView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE616B8F1CFDE3A400B4A055 /* HNGOfflineView.xib */; };
+		BEE8C8431CF78EBC001F4132 /* HNGAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE8C8421CF78EBC001F4132 /* HNGAppDelegate.swift */; };
+		BEE8C8451CF78ED4001F4132 /* HNGGalleryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE8C8441CF78ED4001F4132 /* HNGGalleryCollectionViewCell.swift */; };
+		BEE8C8471CF78EEA001F4132 /* HNGViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE8C8461CF78EEA001F4132 /* HNGViewController.swift */; };
+		BEE8C8491CF78EF6001F4132 /* HNGDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE8C8481CF78EF6001F4132 /* HNGDetailViewController.swift */; };
+		BEE8C8511CF78F23001F4132 /* HNGCacheClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE8C8501CF78F23001F4132 /* HNGCacheClass.swift */; };
+		BEE8C8561CF79135001F4132 /* HNGImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE8C8551CF79135001F4132 /* HNGImageService.swift */; };
+		BEE8C8581CF79226001F4132 /* WebServiceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE8C8571CF79226001F4132 /* WebServiceTest.swift */; };
+		BEE8C85A1CF79513001F4132 /* HNGReachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE8C8591CF79513001F4132 /* HNGReachability.swift */; };
+		BEE8C85E1CF79889001F4132 /* HNGImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE8C85D1CF79889001F4132 /* HNGImage.swift */; };
+		BEE8C8601CF8A2E1001F4132 /* CacheTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE8C85F1CF8A2E1001F4132 /* CacheTest.swift */; };
+		BEE8C8611CF8A34B001F4132 /* HNGImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE8C85D1CF79889001F4132 /* HNGImage.swift */; };
+		BEE8C8621CF8C369001F4132 /* HNGImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE8C8551CF79135001F4132 /* HNGImageService.swift */; };
+		BEE8C8641CF8E272001F4132 /* HNGCacheClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE8C8501CF78F23001F4132 /* HNGCacheClass.swift */; };
+		DE661465848682BEB202FC0C /* Pods_HingeTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC000191021C990E76C1E80C /* Pods_HingeTestTests.framework */; };
+		EB6526879CF5C8783CD6755B /* Pods_HingeTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C44A1B14BFA8ABE66B90950 /* Pods_HingeTest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +42,34 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7136D6E4528AF97615B873E8 /* Pods-HingeTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HingeTestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HingeTestTests/Pods-HingeTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		7BE8AD5B5F9DE1A66A636040 /* Pods-HingeTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HingeTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HingeTest/Pods-HingeTest.debug.xcconfig"; sourceTree = "<group>"; };
+		7C44A1B14BFA8ABE66B90950 /* Pods_HingeTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HingeTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BA5B4E004494006DD151A85 /* Pods-HingeTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HingeTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-HingeTest/Pods-HingeTest.release.xcconfig"; sourceTree = "<group>"; };
 		BE461E171CF77699001A8B00 /* HingeTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HingeTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BE461E1A1CF7769A001A8B00 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BE461E1C1CF7769A001A8B00 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BE461E1F1CF7769A001A8B00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BE461E211CF7769A001A8B00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE461E241CF7769A001A8B00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BE461E261CF7769A001A8B00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE461E2B1CF7769A001A8B00 /* HingeTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HingeTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BE461E2F1CF7769A001A8B00 /* HingeTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HingeTestTests.swift; sourceTree = "<group>"; };
-		BE461E311CF7769A001A8B00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE461E2F1CF7769A001A8B00 /* DetailViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewControllerTests.swift; sourceTree = "<group>"; };
+		BE461E311CF7769A001A8B00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = HingeTestTests/Info.plist; sourceTree = "<group>"; };
+		BE616B841CFDDEC000B4A055 /* ImageModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageModel.swift; sourceTree = "<group>"; };
+		BE616B8C1CFDE05900B4A055 /* HNGOfflineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HNGOfflineView.swift; path = Views/HNGOfflineView.swift; sourceTree = "<group>"; };
+		BE616B8F1CFDE3A400B4A055 /* HNGOfflineView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HNGOfflineView.xib; path = Views/HNGOfflineView.xib; sourceTree = "<group>"; };
+		BEE8C8411CF78EBC001F4132 /* HingeTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HingeTest-Bridging-Header.h"; sourceTree = "<group>"; };
+		BEE8C8421CF78EBC001F4132 /* HNGAppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HNGAppDelegate.swift; path = "App delegate/HNGAppDelegate.swift"; sourceTree = "<group>"; };
+		BEE8C8441CF78ED4001F4132 /* HNGGalleryCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HNGGalleryCollectionViewCell.swift; path = "View Controllers/Gallery Cell/HNGGalleryCollectionViewCell.swift"; sourceTree = "<group>"; };
+		BEE8C8461CF78EEA001F4132 /* HNGViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HNGViewController.swift; path = "View Controllers/HNGViewController.swift"; sourceTree = "<group>"; };
+		BEE8C8481CF78EF6001F4132 /* HNGDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HNGDetailViewController.swift; path = "View Controllers/HNGDetailViewController.swift"; sourceTree = "<group>"; };
+		BEE8C8501CF78F23001F4132 /* HNGCacheClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HNGCacheClass.swift; sourceTree = "<group>"; };
+		BEE8C8551CF79135001F4132 /* HNGImageService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HNGImageService.swift; path = WebService/HNGImageService.swift; sourceTree = "<group>"; };
+		BEE8C8571CF79226001F4132 /* WebServiceTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebServiceTest.swift; sourceTree = "<group>"; };
+		BEE8C8591CF79513001F4132 /* HNGReachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HNGReachability.swift; sourceTree = "<group>"; };
+		BEE8C85D1CF79889001F4132 /* HNGImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HNGImage.swift; path = HingeTest/Model/HNGImage.swift; sourceTree = "<group>"; };
+		BEE8C85F1CF8A2E1001F4132 /* CacheTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CacheTest.swift; sourceTree = "<group>"; };
+		CD0FD615D14380F92D9A9A87 /* Pods-HingeTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HingeTestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HingeTestTests/Pods-HingeTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FC000191021C990E76C1E80C /* Pods_HingeTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HingeTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB6526879CF5C8783CD6755B /* Pods_HingeTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +85,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE661465848682BEB202FC0C /* Pods_HingeTestTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5BF477C970B4C111FB1D7644 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7C44A1B14BFA8ABE66B90950 /* Pods_HingeTest.framework */,
+				FC000191021C990E76C1E80C /* Pods_HingeTestTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BE461E0E1CF77699001A8B00 = {
 			isa = PBXGroup;
 			children = (
 				BE461E191CF7769A001A8B00 /* HingeTest */,
 				BE461E2E1CF7769A001A8B00 /* HingeTestTests */,
 				BE461E181CF77699001A8B00 /* Products */,
+				BE461E311CF7769A001A8B00 /* Info.plist */,
+				EA5545E1CA5E2F3E211301F8 /* Pods */,
+				5BF477C970B4C111FB1D7644 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,12 +125,14 @@
 		BE461E191CF7769A001A8B00 /* HingeTest */ = {
 			isa = PBXGroup;
 			children = (
-				BE461E1A1CF7769A001A8B00 /* AppDelegate.swift */,
-				BE461E1C1CF7769A001A8B00 /* ViewController.swift */,
-				BE461E1E1CF7769A001A8B00 /* Main.storyboard */,
-				BE461E211CF7769A001A8B00 /* Assets.xcassets */,
-				BE461E231CF7769A001A8B00 /* LaunchScreen.storyboard */,
+				BE616B861CFDDFA100B4A055 /* API */,
+				BEE8C8301CF78155001F4132 /* App Delegate */,
 				BE461E261CF7769A001A8B00 /* Info.plist */,
+				BEE8C85C1CF7978B001F4132 /* Model */,
+				BE616B881CFDDFDC00B4A055 /* Resources */,
+				BE616B871CFDDFAE00B4A055 /* Storyboards */,
+				BEE8C8331CF7819F001F4132 /* View Controllers */,
+				BE616B8B1CFDE02D00B4A055 /* Views */,
 			);
 			path = HingeTest;
 			sourceTree = "<group>";
@@ -90,10 +140,143 @@
 		BE461E2E1CF7769A001A8B00 /* HingeTestTests */ = {
 			isa = PBXGroup;
 			children = (
-				BE461E2F1CF7769A001A8B00 /* HingeTestTests.swift */,
-				BE461E311CF7769A001A8B00 /* Info.plist */,
+				BE461E2F1CF7769A001A8B00 /* DetailViewControllerTests.swift */,
+				BEE8C8571CF79226001F4132 /* WebServiceTest.swift */,
+				BEE8C85F1CF8A2E1001F4132 /* CacheTest.swift */,
+				BE616B841CFDDEC000B4A055 /* ImageModel.swift */,
 			);
 			path = HingeTestTests;
+			sourceTree = "<group>";
+		};
+		BE616B861CFDDFA100B4A055 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				BEE8C85B1CF7958D001F4132 /* Reachability */,
+				BEE8C8541CF790D2001F4132 /* WebService */,
+				BEE8C8401CF78E28001F4132 /* Cache */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		BE616B871CFDDFAE00B4A055 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				BE461E1E1CF7769A001A8B00 /* Main.storyboard */,
+				BE461E231CF7769A001A8B00 /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		BE616B881CFDDFDC00B4A055 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BE616B891CFDDFE300B4A055 /* Images */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		BE616B891CFDDFE300B4A055 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				BE461E211CF7769A001A8B00 /* Assets.xcassets */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		BE616B8B1CFDE02D00B4A055 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BE616B8C1CFDE05900B4A055 /* HNGOfflineView.swift */,
+				BE616B8F1CFDE3A400B4A055 /* HNGOfflineView.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		BEE8C8301CF78155001F4132 /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				BEE8C8421CF78EBC001F4132 /* HNGAppDelegate.swift */,
+				BEE8C8411CF78EBC001F4132 /* HingeTest-Bridging-Header.h */,
+			);
+			name = "App Delegate";
+			sourceTree = "<group>";
+		};
+		BEE8C8311CF7815D001F4132 /* Gallery */ = {
+			isa = PBXGroup;
+			children = (
+				BEE8C8461CF78EEA001F4132 /* HNGViewController.swift */,
+				BEE8C8341CF786D5001F4132 /* CollectionView Cell */,
+			);
+			name = Gallery;
+			sourceTree = "<group>";
+		};
+		BEE8C8321CF7817D001F4132 /* Image Detail */ = {
+			isa = PBXGroup;
+			children = (
+				BEE8C8481CF78EF6001F4132 /* HNGDetailViewController.swift */,
+			);
+			name = "Image Detail";
+			sourceTree = "<group>";
+		};
+		BEE8C8331CF7819F001F4132 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BEE8C8321CF7817D001F4132 /* Image Detail */,
+				BEE8C8311CF7815D001F4132 /* Gallery */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		BEE8C8341CF786D5001F4132 /* CollectionView Cell */ = {
+			isa = PBXGroup;
+			children = (
+				BEE8C8441CF78ED4001F4132 /* HNGGalleryCollectionViewCell.swift */,
+			);
+			name = "CollectionView Cell";
+			sourceTree = "<group>";
+		};
+		BEE8C8401CF78E28001F4132 /* Cache */ = {
+			isa = PBXGroup;
+			children = (
+				BEE8C8501CF78F23001F4132 /* HNGCacheClass.swift */,
+			);
+			name = Cache;
+			sourceTree = "<group>";
+		};
+		BEE8C8541CF790D2001F4132 /* WebService */ = {
+			isa = PBXGroup;
+			children = (
+				BEE8C8551CF79135001F4132 /* HNGImageService.swift */,
+			);
+			name = WebService;
+			sourceTree = "<group>";
+		};
+		BEE8C85B1CF7958D001F4132 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				BEE8C8591CF79513001F4132 /* HNGReachability.swift */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
+		BEE8C85C1CF7978B001F4132 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BEE8C85D1CF79889001F4132 /* HNGImage.swift */,
+			);
+			name = Model;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		EA5545E1CA5E2F3E211301F8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7BE8AD5B5F9DE1A66A636040 /* Pods-HingeTest.debug.xcconfig */,
+				8BA5B4E004494006DD151A85 /* Pods-HingeTest.release.xcconfig */,
+				CD0FD615D14380F92D9A9A87 /* Pods-HingeTestTests.debug.xcconfig */,
+				7136D6E4528AF97615B873E8 /* Pods-HingeTestTests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -103,9 +286,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BE461E341CF7769A001A8B00 /* Build configuration list for PBXNativeTarget "HingeTest" */;
 			buildPhases = (
+				FAB54D7B03D31D586D2DAD2F /* 📦 Check Pods Manifest.lock */,
 				BE461E131CF77699001A8B00 /* Sources */,
 				BE461E141CF77699001A8B00 /* Frameworks */,
 				BE461E151CF77699001A8B00 /* Resources */,
+				2199B87790659A3B53D24FE2 /* 📦 Embed Pods Frameworks */,
+				3F4FC79669D8664396F41311 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +306,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BE461E371CF7769A001A8B00 /* Build configuration list for PBXNativeTarget "HingeTestTests" */;
 			buildPhases = (
+				8D5A58B78306C4358651B593 /* 📦 Check Pods Manifest.lock */,
 				BE461E271CF7769A001A8B00 /* Sources */,
 				BE461E281CF7769A001A8B00 /* Frameworks */,
 				BE461E291CF7769A001A8B00 /* Resources */,
+				D1FCD1BF7FD119611A2A123C /* 📦 Embed Pods Frameworks */,
+				85FD984FD228676DAE7BFE7C /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -179,6 +368,7 @@
 			files = (
 				BE461E251CF7769A001A8B00 /* LaunchScreen.storyboard in Resources */,
 				BE461E221CF7769A001A8B00 /* Assets.xcassets in Resources */,
+				BE616B901CFDE3A400B4A055 /* HNGOfflineView.xib in Resources */,
 				BE461E201CF7769A001A8B00 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -192,13 +382,113 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2199B87790659A3B53D24FE2 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HingeTest/Pods-HingeTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F4FC79669D8664396F41311 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HingeTest/Pods-HingeTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85FD984FD228676DAE7BFE7C /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HingeTestTests/Pods-HingeTestTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D5A58B78306C4358651B593 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D1FCD1BF7FD119611A2A123C /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HingeTestTests/Pods-HingeTestTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FAB54D7B03D31D586D2DAD2F /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BE461E131CF77699001A8B00 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE461E1D1CF7769A001A8B00 /* ViewController.swift in Sources */,
-				BE461E1B1CF7769A001A8B00 /* AppDelegate.swift in Sources */,
+				BEE8C8431CF78EBC001F4132 /* HNGAppDelegate.swift in Sources */,
+				BEE8C8471CF78EEA001F4132 /* HNGViewController.swift in Sources */,
+				BE616B8D1CFDE05900B4A055 /* HNGOfflineView.swift in Sources */,
+				BEE8C8451CF78ED4001F4132 /* HNGGalleryCollectionViewCell.swift in Sources */,
+				BEE8C8511CF78F23001F4132 /* HNGCacheClass.swift in Sources */,
+				BEE8C85A1CF79513001F4132 /* HNGReachability.swift in Sources */,
+				BEE8C8561CF79135001F4132 /* HNGImageService.swift in Sources */,
+				BEE8C8491CF78EF6001F4132 /* HNGDetailViewController.swift in Sources */,
+				BEE8C85E1CF79889001F4132 /* HNGImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,7 +496,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE461E301CF7769A001A8B00 /* HingeTestTests.swift in Sources */,
+				BEE8C8581CF79226001F4132 /* WebServiceTest.swift in Sources */,
+				BEE8C8611CF8A34B001F4132 /* HNGImage.swift in Sources */,
+				BEE8C8621CF8C369001F4132 /* HNGImageService.swift in Sources */,
+				BEE8C8641CF8E272001F4132 /* HNGCacheClass.swift in Sources */,
+				BEE8C8601CF8A2E1001F4132 /* CacheTest.swift in Sources */,
+				BE461E301CF7769A001A8B00 /* DetailViewControllerTests.swift in Sources */,
+				BE616B851CFDDEC000B4A055 /* ImageModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,28 +621,36 @@
 		};
 		BE461E351CF7769A001A8B00 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BE8AD5B5F9DE1A66A636040 /* Pods-HingeTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = HingeTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.saturnino.HingeTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HingeTest/HingeTest-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		BE461E361CF7769A001A8B00 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BA5B4E004494006DD151A85 /* Pods-HingeTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = HingeTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.saturnino.HingeTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HingeTest/HingeTest-Bridging-Header.h";
 			};
 			name = Release;
 		};
 		BE461E381CF7769A001A8B00 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD0FD615D14380F92D9A9A87 /* Pods-HingeTestTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = HingeTestTests/Info.plist;
@@ -359,6 +663,7 @@
 		};
 		BE461E391CF7769A001A8B00 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7136D6E4528AF97615B873E8 /* Pods-HingeTestTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = HingeTestTests/Info.plist;
@@ -388,6 +693,7 @@
 				BE461E361CF7769A001A8B00 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BE461E371CF7769A001A8B00 /* Build configuration list for PBXNativeTarget "HingeTestTests" */ = {
 			isa = XCConfigurationList;
@@ -396,6 +702,7 @@
 				BE461E391CF7769A001A8B00 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

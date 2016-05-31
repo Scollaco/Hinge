@@ -1,0 +1,22 @@
+PODS:
+  - Alamofire (3.4.0)
+  - AlamofireImage (2.4.0):
+    - Alamofire (~> 3.3)
+  - SwiftLoader (0.2.5)
+  - SwiftyJSON (2.3.2)
+
+DEPENDENCIES:
+  - Alamofire
+  - AlamofireImage
+  - SwiftLoader
+  - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: c19a627cefd6a95f840401c49ab1f124e07f54ee
+  AlamofireImage: 87408b652e0f5ae5fe364035f15aea8b9b24c77e
+  SwiftLoader: 12d7a6f661f5e9a2c9a72003e7dd6162f4ff0cc4
+  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
+
+PODFILE CHECKSUM: 057b64f8dc2c7e1740c616ec0cff836a9b86d2bf
+
+COCOAPODS: 1.0.0
